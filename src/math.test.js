@@ -53,7 +53,7 @@ it('should throw an error if no input is provided', () => {
     }
     // need to wrap in a function so we vitest don't directly execute add() and checks if resultFn throws an error
 
-    expect(resultFn).toThrowError();
+    expect(resultFn).toThrowError(/is not iterable/);
 })
 
 it("should throw an error if provided with multiple arguments instead of an array", () => {
