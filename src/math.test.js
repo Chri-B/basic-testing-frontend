@@ -4,9 +4,19 @@
 import { expect, it } from "vitest";
 import { add } from "./math";
 
+// 1.
 // Arrange: define testing env and values
 // Act: run code / functions
 // Assert: evaluate the produced code / result and compare it to the expected value/result
+
+// 2.
+// Testing only one thing per test
+
+// 3.
+// Focus on the essence of a test
+
+// 4.
+// Keep number of assertions ("expects") LOW
 
 
 // small sentence that describes what the test should do

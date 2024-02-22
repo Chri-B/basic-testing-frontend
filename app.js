@@ -1,3 +1,4 @@
+// your tests should test only your code, not third part
 import { extractNumbers } from './src/parser.js';
 import {
   validateStringNotEmpty,
@@ -15,7 +16,7 @@ function formSubmitHandler(event) {
   const numberInputs = extractNumbers(formData);
 
   let result = '';
-  
+
   try {
     const numbers = [];
     for (const numberInput of numberInputs) {
